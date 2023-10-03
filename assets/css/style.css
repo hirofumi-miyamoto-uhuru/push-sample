@@ -1,0 +1,15 @@
+html {
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  align-items: center;
+}
+
+main {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}

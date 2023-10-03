@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>push sample</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(function(OneSignal) {
+        OneSignal.init({
+          appId: "fb085d7c-2b95-48ca-8871-022be704b4f9",
+        });
+      });
+    </script>
+    <script src="/assets/js/script.js" defer></script>
+
+    <link rel="manifest" href="manifest.json" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <meta name="apple-mobile-web-app-title" content="push-sample" />
+
+    <link rel="apple-touch-icon" href="/assets/img/icon-152x152.jpg" />
+
+    <meta name="theme-color" content="#f00" />
+  </head>
+  <body>
+    <main>
+      push sample
+      <div class='onesignal-customlink-container'></div>
+    </main>
+  </body>
+</html>
