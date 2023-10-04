@@ -9,7 +9,7 @@ importScripts(
 workbox.precaching.precacheAndRoute([
   {
     url: "/index.html",
-    revision: "1",
+    revision: "2",
   },
   {
     url: "/assets/css/style.css",
@@ -17,6 +17,6 @@ workbox.precaching.precacheAndRoute([
   },
   {
     url: "/assets/js/script.js",
-    revision: "1",
+    revision: "2",
   },
 ]);
